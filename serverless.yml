@@ -38,6 +38,6 @@ functions:
 plugins:
   - serverless-offline
   - serverless-plugin-include-dependencies
-  - serverless-webpack
+ 
 
 
