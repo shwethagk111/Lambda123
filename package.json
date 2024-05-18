@@ -1,0 +1,41 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.485.0",
+    "@aws-sdk/client-dax": "^3.496.0",
+    "@aws-sdk/client-dynamodb": "^3.481.0",
+    "@aws-sdk/client-pinpoint": "^3.485.0",
+    "@aws-sdk/client-s3": "^3.504.0",
+    "@aws-sdk/client-secrets-manager": "^3.465.0",
+    "@aws-sdk/lib-dynamodb": "^3.188.0",
+    "@aws-sdk/util-dynamodb": "^3.481.0",
+    "amazon-cognito-identity-js": "^6.3.7",
+    "aws-cdk": "^2.126.0",
+    "aws-sdk": "^2.1520.0",
+    "axios": "^1.5.1",
+    "base64-js": "^1.5.1",
+    "circular-json": "^0.5.9",
+    "crypto": "^1.0.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.33.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "sqlite3": "^5.1.6",
+    "twilio": "^4.18.1",
+    "uuid": "^9.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
